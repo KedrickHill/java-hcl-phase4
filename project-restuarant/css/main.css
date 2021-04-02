@@ -1,0 +1,141 @@
+
+body {
+    background-image: url(../images/chinese-image-template.jfif);
+}
+
+.nav{
+    width:auto;
+    height:auto; 
+    padding-top: 30px;
+    align-items: baseline;
+    background-color: black;
+
+}
+ #site-title {
+     margin-left: 20px;
+     font-family: "fantasy", "papyrus";
+     color: white;
+ }
+ #navbar {
+     padding-left: 30px;
+ }
+
+#carouselHouseSpecials, img#carousel-item{
+     display:grid;
+     width: 40%;
+     height: 40%;
+     margin:auto auto;
+     margin-top: 10px;
+     min-width: 200px;
+     min-height: 400px;
+     max-width: 400px;
+     max-height: 600px;
+ }
+
+ .nav-link{
+     color: white;
+ }
+
+ .carousel-caption{
+     background-color: lightgray;opacity: 80%;
+     }
+
+  #column {
+      background-color: lightblue;
+      margin-top: 60px;
+      margin-left: 5px;
+  }
+
+  .footer-title, .store-location-title, .contact-info-title, .store-hours-title {
+      color:white;
+      text-align: center;
+      font-family: "fantasy", "papyrus";
+      font-weight: bold;
+      padding-top: 20px;
+  }
+
+  #specials-header, .welcome-content-title {
+      color:gold;
+      text-align: center;
+      font-family: "fantasy", "papyrus";
+      font-weight: bold;
+      padding-top: 20px;
+  }
+
+  .store-location-body, .contact-info-body, .store-hours-body {
+    color:white;
+    text-align: center;
+  }
+
+  .welcome-content-body {
+    color:gold;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .welcome-div {
+      color: gold;
+      width: 300px;
+      margin:auto;
+      margin-bottom: 10px;
+      border: 10px;
+  }
+  .store-div {
+      color: white;
+      width: 200px;
+      margin:auto;
+      margin-bottom: 10px;
+      /* position: relative; left: 280px; */
+  }
+
+
+  img#menu-option-img {
+      max-width: 180px;
+  }
+  
+  input.desc {
+    width: 300px;
+    height: 100px;
+  }
+
+  .main, .welcome-content {
+      background-image: url(../images/chinese-image-template.jfif);
+      padding-bottom: 20px;
+  }
+
+  img#carousel-item {
+    border-radius: 5px;
+    border-top: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    border-color: gold;
+    border-style: solid;
+  }
+
+  button.accordion-button {
+      background-color: white;
+  }
+
+  .menu-footer  {
+    background-color: black; 
+    padding-bottom: 20px;
+    position:absolute; 
+    bottom:-420px;
+    width:100%;
+}
+.main-footer  {
+    background-color: black; 
+    padding-bottom: 20px;
+    position:absolute; 
+    bottom:0px;
+    width:100%;
+}
+  
+  @media (min-width: 1400px) {
+      #under-header {
+          max-width: 3280px;
+      }
+    }
+
+     
